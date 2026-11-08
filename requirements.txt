@@ -1,0 +1,21 @@
+# Tested with Google Colab, Python 3.13 (versions recorded 8 Nov 2026).
+# GPU: NVIDIA A100-SXM4-40GB, torch 2.14.1+cu130 (CUDA 13.0). For GPU use install the CUDA build, e.g.
+#   pip install torch==2.14.1 torchvision==0.29.1 --index-url https://download.pytorch.org/whl/cu130
+torch==2.14.1
+torchvision==0.29.1
+timm==1.0.31
+albumentations==2.0.8
+opencv-python-headless==5.0.0.*
+numpy==2.4.6
+pandas==2.2.3
+scikit-learn==1.6.1
+statsmodels==0.15.0
+scipy==1.16.3
+pillow==11.3.0
+imagehash==4.3.2
+open_clip_torch==4.2.1
+openpyxl==3.1.5
+grad-cam
+matplotlib
+seaborn
+kaggle
