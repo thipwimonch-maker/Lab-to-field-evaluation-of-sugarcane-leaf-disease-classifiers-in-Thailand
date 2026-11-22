@@ -4,7 +4,7 @@
 torch==2.14.1
 torchvision==0.29.1
 timm==1.0.31
-albumentations==2.0.8
+albumentations==2.0.8      # also the version printed in the original run log
 opencv-python-headless==5.0.0.*
 numpy==2.4.6
 pandas==2.2.3
@@ -15,7 +15,8 @@ pillow==11.3.0
 imagehash==4.3.2
 open_clip_torch==4.2.1
 openpyxl==3.1.5
-grad-cam
+psutil                     # used in Cell 0 (preinstalled in Colab)
+grad-cam                   # version not recorded
 matplotlib
 seaborn
 kaggle
